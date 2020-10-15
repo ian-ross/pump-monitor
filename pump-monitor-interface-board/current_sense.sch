@@ -1,0 +1,1185 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pump-monitor-interface-board:R_0805 R15
+U 1 1 5F86BF7F
+P 2475 3875
+AR Path="/5F859606/5F86BF7F" Ref="R15"  Part="1" 
+AR Path="/5F8A60BA/5F86BF7F" Ref="R?"  Part="1" 
+F 0 "R15" V 2575 3875 50  0000 C CNN
+F 1 "47K" V 2650 3875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2405 3875 50  0001 C CNN
+F 3 "~" H 2475 3875 50  0001 C CNN
+F 4 "N" H 2475 3875 50  0001 C CNN "In stock"
+F 5 "CRCW080547K0FKEAC" H 2475 3875 50  0001 C CNN "MPN"
+	1    2475 3875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2125 3625 2125 3875
+$Comp
+L pump-monitor-interface-board:R_0805 R18
+U 1 1 5F86BF86
+P 2125 4125
+AR Path="/5F859606/5F86BF86" Ref="R18"  Part="1" 
+AR Path="/5F8A60BA/5F86BF86" Ref="R?"  Part="1" 
+F 0 "R18" H 2055 4079 50  0000 R CNN
+F 1 "1K" H 2055 4170 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2055 4125 50  0001 C CNN
+F 3 "~" H 2125 4125 50  0001 C CNN
+F 4 "Y" H 2125 4125 50  0001 C CNN "In stock"
+F 5 "CRGP0805F1K0" H 2125 4125 50  0001 C CNN "MPN"
+	1    2125 4125
+	1    0    0    1   
+$EndComp
+Connection ~ 2125 3875
+Wire Wire Line
+	2125 3875 2125 3975
+Wire Wire Line
+	2750 3525 2800 3525
+Wire Wire Line
+	2625 3875 2800 3875
+Wire Wire Line
+	2800 3875 2800 3525
+Wire Wire Line
+	2125 4275 2125 4300
+$Comp
+L power:+2V5 #PWR022
+U 1 1 5F86BF92
+P 2125 4300
+AR Path="/5F859606/5F86BF92" Ref="#PWR022"  Part="1" 
+AR Path="/5F8A60BA/5F86BF92" Ref="#PWR?"  Part="1" 
+F 0 "#PWR022" H 2125 4150 50  0001 C CNN
+F 1 "+2V5" H 2140 4473 50  0000 C CNN
+F 2 "" H 2125 4300 50  0001 C CNN
+F 3 "" H 2125 4300 50  0001 C CNN
+	1    2125 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 3725 3000 3975
+$Comp
+L pump-monitor-interface-board:R_0805 R19
+U 1 1 5F86BF99
+P 3000 4225
+AR Path="/5F859606/5F86BF99" Ref="R19"  Part="1" 
+AR Path="/5F8A60BA/5F86BF99" Ref="R?"  Part="1" 
+F 0 "R19" H 2930 4179 50  0000 R CNN
+F 1 "1K" H 2930 4270 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2930 4225 50  0001 C CNN
+F 3 "~" H 3000 4225 50  0001 C CNN
+F 4 "Y" H 3000 4225 50  0001 C CNN "In stock"
+F 5 "CRGP0805F1K0" H 3000 4225 50  0001 C CNN "MPN"
+	1    3000 4225
+	1    0    0    1   
+$EndComp
+Connection ~ 3000 3975
+Wire Wire Line
+	3000 3975 3000 4075
+Wire Wire Line
+	3675 3975 3675 3625
+Wire Wire Line
+	3000 4375 3000 4400
+$Comp
+L power:+2V5 #PWR024
+U 1 1 5F86BFA3
+P 3000 4400
+AR Path="/5F859606/5F86BFA3" Ref="#PWR024"  Part="1" 
+AR Path="/5F8A60BA/5F86BFA3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR024" H 3000 4250 50  0001 C CNN
+F 1 "+2V5" H 3015 4573 50  0000 C CNN
+F 2 "" H 3000 4400 50  0001 C CNN
+F 3 "" H 3000 4400 50  0001 C CNN
+	1    3000 4400
+	-1   0    0    1   
+$EndComp
+Text Notes 2375 4800 0    50   ~ 10
+AMPLIFICATION (x 3312)
+$Comp
+L pump-monitor-interface-board:R_0805 R12
+U 1 1 5F86BFAC
+P 4275 3625
+AR Path="/5F859606/5F86BFAC" Ref="R12"  Part="1" 
+AR Path="/5F8A60BA/5F86BFAC" Ref="R?"  Part="1" 
+F 0 "R12" V 4375 3625 50  0000 C CNN
+F 1 "10K" V 4450 3625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4205 3625 50  0001 C CNN
+F 3 "~" H 4275 3625 50  0001 C CNN
+F 4 "Y" H 4275 3625 50  0001 C CNN "In stock"
+F 5 "CRGP0805F10K" H 4275 3625 50  0001 C CNN "MPN"
+	1    4275 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L pump-monitor-interface-board:R_0805 R6
+U 1 1 5F86BFB2
+P 5575 2675
+AR Path="/5F859606/5F86BFB2" Ref="R6"  Part="1" 
+AR Path="/5F8A60BA/5F86BFB2" Ref="R?"  Part="1" 
+F 0 "R6" V 5675 2675 50  0000 C CNN
+F 1 "5K" V 5750 2675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5505 2675 50  0001 C CNN
+F 3 "~" H 5575 2675 50  0001 C CNN
+F 4 "N" H 5575 2675 50  0001 C CNN "In stock"
+F 5 "CRCW08055K00FKTA" H 5575 2675 50  0001 C CNN "MPN"
+	1    5575 2675
+	0    1    1    0   
+$EndComp
+$Comp
+L pump-monitor-interface-board:R_0805 R4
+U 1 1 5F86BFB8
+P 5575 2300
+AR Path="/5F859606/5F86BFB8" Ref="R4"  Part="1" 
+AR Path="/5F8A60BA/5F86BFB8" Ref="R?"  Part="1" 
+F 0 "R4" V 5675 2300 50  0000 C CNN
+F 1 "10K" V 5750 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5505 2300 50  0001 C CNN
+F 3 "~" H 5575 2300 50  0001 C CNN
+F 4 "Y" H 5575 2300 50  0001 C CNN "In stock"
+F 5 "CRGP0805F10K" H 5575 2300 50  0001 C CNN "MPN"
+	1    5575 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L pump-monitor-interface-board:R_0805 R5
+U 1 1 5F86BFBE
+P 4875 2675
+AR Path="/5F859606/5F86BFBE" Ref="R5"  Part="1" 
+AR Path="/5F8A60BA/5F86BFBE" Ref="R?"  Part="1" 
+F 0 "R5" V 4700 2675 50  0000 C CNN
+F 1 "10K" V 4775 2675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4805 2675 50  0001 C CNN
+F 3 "~" H 4875 2675 50  0001 C CNN
+F 4 "Y" H 4875 2675 50  0001 C CNN "In stock"
+F 5 "CRGP0805F10K" H 4875 2675 50  0001 C CNN "MPN"
+	1    4875 2675
+	0    1    1    0   
+$EndComp
+$Comp
+L pump-monitor-interface-board:R_0805 R8
+U 1 1 5F86BFC4
+P 6300 3050
+AR Path="/5F859606/5F86BFC4" Ref="R8"  Part="1" 
+AR Path="/5F8A60BA/5F86BFC4" Ref="R?"  Part="1" 
+F 0 "R8" V 6125 3050 50  0000 C CNN
+F 1 "10K" V 6200 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6230 3050 50  0001 C CNN
+F 3 "~" H 6300 3050 50  0001 C CNN
+F 4 "Y" H 6300 3050 50  0001 C CNN "In stock"
+F 5 "CRGP0805F10K" H 6300 3050 50  0001 C CNN "MPN"
+	1    6300 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L pump-monitor-interface-board:D D2
+U 1 1 5F86BFCB
+P 4875 3150
+AR Path="/5F859606/5F86BFCB" Ref="D2"  Part="1" 
+AR Path="/5F8A60BA/5F86BFCB" Ref="D?"  Part="1" 
+F 0 "D2" H 4875 3367 50  0000 C CNN
+F 1 "1N914" H 4875 3276 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 4875 3150 50  0001 C CNN
+F 3 "https://www.mouser.at/datasheet/2/395/1N4148W_SERIES_K1804-1519318.pdf" H 4875 3150 50  0001 C CNN
+F 4 "1N914BW RH" H 4875 3150 50  0001 C CNN "MPN"
+F 5 "Y" H 4875 3150 50  0001 C CNN "In stock"
+	1    4875 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pump-monitor-interface-board:D D1
+U 1 1 5F86BFD2
+P 5250 2925
+AR Path="/5F859606/5F86BFD2" Ref="D1"  Part="1" 
+AR Path="/5F8A60BA/5F86BFD2" Ref="D?"  Part="1" 
+F 0 "D1" V 5296 2845 50  0000 R CNN
+F 1 "1N914" V 5205 2845 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123F" H 5250 2925 50  0001 C CNN
+F 3 "https://www.mouser.at/datasheet/2/395/1N4148W_SERIES_K1804-1519318.pdf" H 5250 2925 50  0001 C CNN
+F 4 "1N914BW RH" H 5250 2925 50  0001 C CNN "MPN"
+F 5 "Y" H 5250 2925 50  0001 C CNN "In stock"
+	1    5250 2925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+2V5 #PWR017
+U 1 1 5F86BFD8
+P 4575 3875
+AR Path="/5F859606/5F86BFD8" Ref="#PWR017"  Part="1" 
+AR Path="/5F8A60BA/5F86BFD8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR017" H 4575 3725 50  0001 C CNN
+F 1 "+2V5" V 4590 4003 50  0000 L CNN
+F 2 "" H 4575 3875 50  0001 C CNN
+F 3 "" H 4575 3875 50  0001 C CNN
+	1    4575 3875
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4475 2675 4725 2675
+Wire Wire Line
+	5250 2675 5250 2775
+Wire Wire Line
+	5225 3525 5250 3525
+Connection ~ 5250 3150
+Wire Wire Line
+	5025 3150 5250 3150
+Connection ~ 5250 2675
+Wire Wire Line
+	4075 2300 4075 3625
+Wire Wire Line
+	4075 3625 4125 3625
+Wire Wire Line
+	4625 3425 4575 3425
+Wire Wire Line
+	4575 3425 4575 3875
+Wire Wire Line
+	5725 2300 5875 2300
+Wire Wire Line
+	5875 2675 5725 2675
+$Comp
+L power:+2V5 #PWR015
+U 1 1 5F86BFEA
+P 5975 3750
+AR Path="/5F859606/5F86BFEA" Ref="#PWR015"  Part="1" 
+AR Path="/5F8A60BA/5F86BFEA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR015" H 5975 3600 50  0001 C CNN
+F 1 "+2V5" V 5990 3878 50  0000 L CNN
+F 2 "" H 5975 3750 50  0001 C CNN
+F 3 "" H 5975 3750 50  0001 C CNN
+	1    5975 3750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6025 3300 5975 3300
+Wire Wire Line
+	5975 3300 5975 3750
+Wire Wire Line
+	6150 3050 5875 3050
+Wire Wire Line
+	5875 3050 5875 3500
+Wire Wire Line
+	5875 3500 6025 3500
+Wire Wire Line
+	6675 3050 6675 3400
+Wire Wire Line
+	2150 3625 2125 3625
+Wire Wire Line
+	2325 3875 2125 3875
+Connection ~ 2800 3525
+Wire Wire Line
+	2800 3525 3025 3525
+Wire Wire Line
+	3025 3725 3000 3725
+Wire Wire Line
+	3200 3975 3000 3975
+Wire Wire Line
+	3500 3975 3675 3975
+$Comp
+L pump-monitor-interface-board:R_0805 R16
+U 1 1 5F86BFFD
+P 3350 3975
+AR Path="/5F859606/5F86BFFD" Ref="R16"  Part="1" 
+AR Path="/5F8A60BA/5F86BFFD" Ref="R?"  Part="1" 
+F 0 "R16" V 3450 3975 50  0000 C CNN
+F 1 "68K" V 3525 3975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3280 3975 50  0001 C CNN
+F 3 "~" H 3350 3975 50  0001 C CNN
+F 4 "N" H 3350 3975 50  0001 C CNN "In stock"
+F 5 "CRCW080568K0FKEA" H 3350 3975 50  0001 C CNN "MPN"
+	1    3350 3975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 3050 6675 3050
+Wire Wire Line
+	5250 3525 5250 3150
+Wire Wire Line
+	5425 2300 4075 2300
+Wire Wire Line
+	4475 2675 4475 3150
+Wire Wire Line
+	4725 3150 4475 3150
+Connection ~ 4475 3150
+Wire Wire Line
+	5250 3075 5250 3150
+Wire Wire Line
+	4475 3625 4625 3625
+Wire Wire Line
+	4425 3625 4475 3625
+Connection ~ 4475 3625
+Wire Wire Line
+	4475 3150 4475 3625
+Wire Wire Line
+	5250 2675 5425 2675
+Wire Wire Line
+	5025 2675 5250 2675
+Wire Wire Line
+	5875 2300 5875 2675
+Wire Wire Line
+	5875 3050 5875 2675
+Connection ~ 5875 3050
+Connection ~ 5875 2675
+Text Notes 4625 4800 0    50   ~ 10
+RECTIFIER ABOUT SUPPLY MID-POINT
+$Comp
+L pump-monitor-interface-board:R_0805 R10
+U 1 1 5F86C01D
+P 7225 3400
+AR Path="/5F859606/5F86C01D" Ref="R10"  Part="1" 
+AR Path="/5F8A60BA/5F86C01D" Ref="R?"  Part="1" 
+F 0 "R10" V 7325 3400 50  0000 C CNN
+F 1 "10K" V 7400 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7155 3400 50  0001 C CNN
+F 3 "~" H 7225 3400 50  0001 C CNN
+F 4 "Y" H 7225 3400 50  0001 C CNN "In stock"
+F 5 "CRGP0805F10K" H 7225 3400 50  0001 C CNN "MPN"
+	1    7225 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L pump-monitor-interface-board:C_0805 C1
+U 1 1 5F86C023
+P 7475 3675
+AR Path="/5F859606/5F86C023" Ref="C1"  Part="1" 
+AR Path="/5F8A60BA/5F86C023" Ref="C?"  Part="1" 
+F 0 "C1" H 7590 3721 50  0000 L CNN
+F 1 "1U" H 7590 3630 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7513 3525 50  0001 C CNN
+F 3 "" H 7475 3675 50  0001 C CNN
+F 4 "Y" H 7475 3675 50  0001 C CNN "In stock"
+F 5 "885012107015" H 7475 3675 50  0001 C CNN "MPN"
+	1    7475 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7375 3400 7475 3400
+Wire Wire Line
+	7475 3400 7475 3525
+Wire Wire Line
+	7475 3825 7475 3875
+$Comp
+L power:GND #PWR018
+U 1 1 5F86C02C
+P 7475 3875
+AR Path="/5F859606/5F86C02C" Ref="#PWR018"  Part="1" 
+AR Path="/5F8A60BA/5F86C02C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR018" H 7475 3625 50  0001 C CNN
+F 1 "GND" H 7480 3702 50  0000 C CNN
+F 2 "" H 7475 3875 50  0001 C CNN
+F 3 "" H 7475 3875 50  0001 C CNN
+	1    7475 3875
+	1    0    0    -1  
+$EndComp
+Text Notes 7100 4800 0    50   ~ 10
+LOW-PASS FILTER
+Wire Notes Line
+	7025 2175 7875 2175
+Wire Notes Line
+	7875 4850 7025 4850
+Connection ~ 6675 3400
+Wire Wire Line
+	6625 3400 6675 3400
+Wire Notes Line
+	3975 2175 3975 4850
+Wire Notes Line
+	6950 2175 6950 4850
+Wire Notes Line
+	3875 2175 3875 4850
+Wire Notes Line
+	1900 4850 1900 2175
+Wire Notes Line
+	7025 2175 7025 4850
+Wire Notes Line
+	7875 4850 7875 2175
+$Comp
+L pump-monitor-interface-board:R_0805 R11
+U 1 1 5F86C03E
+P 8425 3400
+AR Path="/5F859606/5F86C03E" Ref="R11"  Part="1" 
+AR Path="/5F8A60BA/5F86C03E" Ref="R?"  Part="1" 
+F 0 "R11" V 8250 3400 50  0000 C CNN
+F 1 "6.8K" V 8325 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8355 3400 50  0001 C CNN
+F 3 "~" H 8425 3400 50  0001 C CNN
+F 4 "N" H 8425 3400 50  0001 C CNN "In stock"
+F 5 "CRCW08056K80FKEA" H 8425 3400 50  0001 C CNN "MPN"
+	1    8425 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L pump-monitor-interface-board:R_0805 R7
+U 1 1 5F86C044
+P 9000 2825
+AR Path="/5F859606/5F86C044" Ref="R7"  Part="1" 
+AR Path="/5F8A60BA/5F86C044" Ref="R?"  Part="1" 
+F 0 "R7" V 8825 2825 50  0000 C CNN
+F 1 "330K" V 8900 2825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8930 2825 50  0001 C CNN
+F 3 "~" H 9000 2825 50  0001 C CNN
+F 4 "Y" H 9000 2825 50  0001 C CNN "In stock"
+F 5 "CRCW0805330KFKEA" H 9000 2825 50  0001 C CNN "MPN"
+	1    9000 2825
+	0    1    1    0   
+$EndComp
+$Comp
+L pump-monitor-interface-board:R_0805 R9
+U 1 1 5F86C04A
+P 8225 3125
+AR Path="/5F859606/5F86C04A" Ref="R9"  Part="1" 
+AR Path="/5F8A60BA/5F86C04A" Ref="R?"  Part="1" 
+F 0 "R9" H 8350 3100 50  0000 C CNN
+F 1 "18K" H 8375 3175 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8155 3125 50  0001 C CNN
+F 3 "~" H 8225 3125 50  0001 C CNN
+F 4 "Y" H 8225 3125 50  0001 C CNN "In stock"
+F 5 "CRGP0805F18K" H 8225 3125 50  0001 C CNN "MPN"
+	1    8225 3125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8575 3400 8650 3400
+Wire Wire Line
+	8225 3275 8225 3600
+Wire Wire Line
+	8700 3600 8225 3600
+Connection ~ 8225 3600
+Wire Wire Line
+	8225 3600 8225 3700
+Wire Wire Line
+	9300 3500 9350 3500
+$Comp
+L power:+5V #PWR013
+U 1 1 5F86C056
+P 8900 3200
+AR Path="/5F859606/5F86C056" Ref="#PWR013"  Part="1" 
+AR Path="/5F8A60BA/5F86C056" Ref="#PWR?"  Part="1" 
+F 0 "#PWR013" H 8900 3050 50  0001 C CNN
+F 1 "+5V" H 8915 3373 50  0000 C CNN
+F 2 "" H 8900 3200 50  0001 C CNN
+F 3 "" H 8900 3200 50  0001 C CNN
+	1    8900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5F86C05C
+P 8900 3800
+AR Path="/5F859606/5F86C05C" Ref="#PWR016"  Part="1" 
+AR Path="/5F8A60BA/5F86C05C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR016" H 8900 3550 50  0001 C CNN
+F 1 "GND" H 8905 3627 50  0000 C CNN
+F 2 "" H 8900 3800 50  0001 C CNN
+F 3 "" H 8900 3800 50  0001 C CNN
+	1    8900 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 3400 8650 2825
+Wire Wire Line
+	8650 2825 8850 2825
+Connection ~ 8650 3400
+Wire Wire Line
+	8650 3400 8700 3400
+Wire Wire Line
+	9150 2825 9350 2825
+Wire Wire Line
+	9350 2825 9350 3500
+Connection ~ 9350 3500
+Wire Wire Line
+	9350 3500 9575 3500
+$Comp
+L power:+5V #PWR012
+U 1 1 5F86C06A
+P 8225 2900
+AR Path="/5F859606/5F86C06A" Ref="#PWR012"  Part="1" 
+AR Path="/5F8A60BA/5F86C06A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR012" H 8225 2750 50  0001 C CNN
+F 1 "+5V" H 8240 3073 50  0000 C CNN
+F 2 "" H 8225 2900 50  0001 C CNN
+F 3 "" H 8225 2900 50  0001 C CNN
+	1    8225 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5F86C070
+P 8225 4075
+AR Path="/5F859606/5F86C070" Ref="#PWR019"  Part="1" 
+AR Path="/5F8A60BA/5F86C070" Ref="#PWR?"  Part="1" 
+F 0 "#PWR019" H 8225 3825 50  0001 C CNN
+F 1 "GND" H 8230 3902 50  0000 C CNN
+F 2 "" H 8225 4075 50  0001 C CNN
+F 3 "" H 8225 4075 50  0001 C CNN
+	1    8225 4075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8225 4075 8225 4000
+Wire Wire Line
+	8225 2975 8225 2900
+$Comp
+L pump-monitor-interface-board:R_0805 R14
+U 1 1 5F86C078
+P 8225 3850
+AR Path="/5F859606/5F86C078" Ref="R14"  Part="1" 
+AR Path="/5F8A60BA/5F86C078" Ref="R?"  Part="1" 
+F 0 "R14" H 8350 3825 50  0000 C CNN
+F 1 "22K" H 8375 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8155 3850 50  0001 C CNN
+F 3 "~" H 8225 3850 50  0001 C CNN
+F 4 "Y" H 8225 3850 50  0001 C CNN "In stock"
+F 5 "CRCW080522K0FKEAC" H 8225 3850 50  0001 C CNN "MPN"
+	1    8225 3850
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	9725 2175 9725 4850
+Wire Notes Line
+	7950 4850 7950 2175
+Wire Wire Line
+	7475 3400 7700 3400
+Connection ~ 7475 3400
+Text Notes 8200 4800 0    50   ~ 10
+COMPARE TO 2.75V\n(WITH 0.1V HYSTERESIS)
+$Comp
+L pump-monitor-interface-board:LMV331 U2
+U 1 1 5F86C087
+P 9000 3500
+AR Path="/5F859606/5F86C087" Ref="U2"  Part="1" 
+AR Path="/5F8A60BA/5F86C087" Ref="U?"  Part="1" 
+F 0 "U2" H 9000 3325 50  0000 L CNN
+F 1 "LMV331" H 9000 3250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 9000 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmv331.pdf" H 9000 3700 50  0001 C CNN
+F 4 "LMV331IDBVR" H 9000 3500 50  0001 C CNN "MPN"
+F 5 "https://www.ti.com/product/LMV331" H 9000 3500 50  0001 C CNN "Link"
+F 6 "Y" H 9000 3500 50  0001 C CNN "In stock"
+	1    9000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pump-monitor-interface-board:TLV4333 U1
+U 3 1 5F86C08F
+P 4925 3525
+AR Path="/5F859606/5F86C08F" Ref="U1"  Part="3" 
+AR Path="/5F8A60BA/5F86C08F" Ref="U?"  Part="3" 
+F 0 "U1" H 4925 3325 50  0000 C CNN
+F 1 "TLV4333" H 4925 3250 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 4925 3550 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlv4333.pdf" H 4925 3550 50  0001 C CNN
+F 4 "TLV4333IDR" H 4925 3525 50  0001 C CNN "MPN"
+F 5 "https://www.ti.com/product/TLV4333" H 4925 3525 50  0001 C CNN "Link"
+F 6 "Y" H 4925 3525 50  0001 C CNN "In stock"
+	3    4925 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L pump-monitor-interface-board:TLV4333 U1
+U 1 1 5F86C09D
+P 2450 3525
+AR Path="/5F859606/5F86C09D" Ref="U1"  Part="1" 
+AR Path="/5F8A60BA/5F86C09D" Ref="U?"  Part="1" 
+F 0 "U1" H 2450 3890 50  0000 C CNN
+F 1 "TLV4333" H 2450 3799 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 2450 3550 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlv4333.pdf" H 2450 3550 50  0001 C CNN
+F 4 "TLV4333IDR" H 2450 3525 50  0001 C CNN "MPN"
+F 5 "Y" H 2450 3525 50  0001 C CNN "In stock"
+	1    2450 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L pump-monitor-interface-board:TLV4333 U1
+U 4 1 5F86C0A4
+P 6325 3400
+AR Path="/5F859606/5F86C0A4" Ref="U1"  Part="4" 
+AR Path="/5F8A60BA/5F86C0A4" Ref="U?"  Part="4" 
+F 0 "U1" H 6325 3200 50  0000 C CNN
+F 1 "TLV4333" H 6325 3125 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 6325 3425 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlv4333.pdf" H 6325 3425 50  0001 C CNN
+F 4 "TLV4333IDR" H 6325 3400 50  0001 C CNN "MPN"
+F 5 "Y" H 6325 3400 50  0001 C CNN "In stock"
+	4    6325 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 950  975  0    100  ~ 20
+ROGOWSKI COIL CURRENT SENSING
+Text HLabel 10325 3900 2    50   Output ~ 0
+CURRENT_SENSE
+Text HLabel 1675 3425 0    50   Input ~ 0
+ROGOWSKI_COIL+
+Text HLabel 1675 3625 0    50   Input ~ 0
+ROGOWSKI_COIL-
+$Comp
+L power:+2V5 #PWR?
+U 1 1 5F8733D4
+P 1800 3725
+AR Path="/5F8733D4" Ref="#PWR?"  Part="1" 
+AR Path="/5F859606/5F8733D4" Ref="#PWR014"  Part="1" 
+AR Path="/5F8A60BA/5F8733D4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR014" H 1800 3575 50  0001 C CNN
+F 1 "+2V5" H 1815 3898 50  0000 C CNN
+F 2 "" H 1800 3725 50  0001 C CNN
+F 3 "" H 1800 3725 50  0001 C CNN
+	1    1800 3725
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1675 3625 1800 3625
+Wire Wire Line
+	1800 3625 1800 3725
+$Comp
+L power:GND #PWR?
+U 1 1 5F89768B
+P 4950 6700
+AR Path="/5F89768B" Ref="#PWR?"  Part="1" 
+AR Path="/5F859606/5F89768B" Ref="#PWR030"  Part="1" 
+AR Path="/5F8A60BA/5F89768B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR030" H 4950 6450 50  0001 C CNN
+F 1 "GND" H 4955 6527 50  0000 C CNN
+F 2 "" H 4950 6700 50  0001 C CNN
+F 3 "" H 4950 6700 50  0001 C CNN
+	1    4950 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5025 6600 4950 6600
+Wire Wire Line
+	4950 6600 4950 6650
+$Comp
+L power:+5V #PWR?
+U 1 1 5F897693
+P 4950 6300
+AR Path="/5F897693" Ref="#PWR?"  Part="1" 
+AR Path="/5F859606/5F897693" Ref="#PWR028"  Part="1" 
+AR Path="/5F8A60BA/5F897693" Ref="#PWR?"  Part="1" 
+F 0 "#PWR028" H 4950 6150 50  0001 C CNN
+F 1 "+5V" H 4965 6473 50  0000 C CNN
+F 2 "" H 4950 6300 50  0001 C CNN
+F 3 "" H 4950 6300 50  0001 C CNN
+	1    4950 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 6300 4950 6350
+Wire Wire Line
+	4950 6400 5025 6400
+$Comp
+L pump-monitor-interface-board:TLV4333 U?
+U 5 1 5F89769D
+P 5225 6500
+AR Path="/5F89769D" Ref="U?"  Part="5" 
+AR Path="/5F859606/5F89769D" Ref="U1"  Part="5" 
+AR Path="/5F8A60BA/5F89769D" Ref="U?"  Part="5" 
+F 0 "U1" H 5353 6554 50  0000 L CNN
+F 1 "TLV4333" H 5353 6463 50  0000 L CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5225 6525 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlv4333.pdf" H 5225 6525 50  0001 C CNN
+F 4 "TLV4333IDR" H 5225 6500 50  0001 C CNN "MPN"
+F 5 "Y" H 5225 6500 50  0001 C CNN "In stock"
+	5    5225 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pump-monitor-interface-board:LMV321 U?
+U 1 1 5F8976A5
+P 2650 6450
+AR Path="/5F8976A5" Ref="U?"  Part="1" 
+AR Path="/5F859606/5F8976A5" Ref="U3"  Part="1" 
+AR Path="/5F8A60BA/5F8976A5" Ref="U?"  Part="1" 
+F 0 "U3" H 2700 6325 50  0000 L CNN
+F 1 "LMV321" H 2700 6250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2650 6450 50  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lmv321a.pdf" H 2650 6450 50  0001 C CNN
+F 4 "LMV321AIDBVR" H 2650 6450 50  0001 C CNN "MPN"
+F 5 "https://www.ti.com/product/LMV321A" H 2650 6450 50  0001 C CNN "Link"
+F 6 "N" H 2650 6450 50  0001 C CNN "In stock"
+	1    2650 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F8976AB
+P 2550 6150
+AR Path="/5F8976AB" Ref="#PWR?"  Part="1" 
+AR Path="/5F859606/5F8976AB" Ref="#PWR027"  Part="1" 
+AR Path="/5F8A60BA/5F8976AB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR027" H 2550 6000 50  0001 C CNN
+F 1 "+5V" H 2565 6323 50  0000 C CNN
+F 2 "" H 2550 6150 50  0001 C CNN
+F 3 "" H 2550 6150 50  0001 C CNN
+	1    2550 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8976B1
+P 2550 6750
+AR Path="/5F8976B1" Ref="#PWR?"  Part="1" 
+AR Path="/5F859606/5F8976B1" Ref="#PWR032"  Part="1" 
+AR Path="/5F8A60BA/5F8976B1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR032" H 2550 6500 50  0001 C CNN
+F 1 "GND" H 2555 6577 50  0000 C CNN
+F 2 "" H 2550 6750 50  0001 C CNN
+F 3 "" H 2550 6750 50  0001 C CNN
+	1    2550 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6450 3000 6450
+Wire Wire Line
+	3000 6450 3000 7075
+Wire Wire Line
+	3000 7075 2300 7075
+Wire Wire Line
+	2300 7075 2300 6550
+Connection ~ 3000 6450
+$Comp
+L pump-monitor-interface-board:R_0805 R?
+U 1 1 5F8976BC
+P 1500 6150
+AR Path="/5F8976BC" Ref="R?"  Part="1" 
+AR Path="/5F859606/5F8976BC" Ref="R20"  Part="1" 
+AR Path="/5F8A60BA/5F8976BC" Ref="R?"  Part="1" 
+F 0 "R20" H 1570 6196 50  0000 L CNN
+F 1 "100K" H 1570 6105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1430 6150 50  0001 C CNN
+F 3 "~" H 1500 6150 50  0001 C CNN
+F 4 "N" H 1500 6150 50  0001 C CNN "In stock"
+F 5 "CRCW0805100KFKEAC" H 1500 6150 50  0001 C CNN "MPN"
+	1    1500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pump-monitor-interface-board:R_0805 R?
+U 1 1 5F8976C2
+P 1500 6525
+AR Path="/5F8976C2" Ref="R?"  Part="1" 
+AR Path="/5F859606/5F8976C2" Ref="R21"  Part="1" 
+AR Path="/5F8A60BA/5F8976C2" Ref="R?"  Part="1" 
+F 0 "R21" H 1570 6571 50  0000 L CNN
+F 1 "100K" H 1570 6480 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1430 6525 50  0001 C CNN
+F 3 "~" H 1500 6525 50  0001 C CNN
+F 4 "N" H 1500 6525 50  0001 C CNN "In stock"
+F 5 "CRCW0805100KFKEAC" H 1500 6525 50  0001 C CNN "MPN"
+	1    1500 6525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6300 1500 6350
+$Comp
+L power:+5V #PWR?
+U 1 1 5F8976C9
+P 1500 5950
+AR Path="/5F8976C9" Ref="#PWR?"  Part="1" 
+AR Path="/5F859606/5F8976C9" Ref="#PWR026"  Part="1" 
+AR Path="/5F8A60BA/5F8976C9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR026" H 1500 5800 50  0001 C CNN
+F 1 "+5V" H 1515 6123 50  0000 C CNN
+F 2 "" H 1500 5950 50  0001 C CNN
+F 3 "" H 1500 5950 50  0001 C CNN
+	1    1500 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 5950 1500 6000
+$Comp
+L power:GND #PWR?
+U 1 1 5F8976D0
+P 1500 6750
+AR Path="/5F8976D0" Ref="#PWR?"  Part="1" 
+AR Path="/5F859606/5F8976D0" Ref="#PWR031"  Part="1" 
+AR Path="/5F8A60BA/5F8976D0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR031" H 1500 6500 50  0001 C CNN
+F 1 "GND" H 1505 6577 50  0000 C CNN
+F 2 "" H 1500 6750 50  0001 C CNN
+F 3 "" H 1500 6750 50  0001 C CNN
+	1    1500 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 6750 1500 6675
+Connection ~ 1500 6350
+Wire Wire Line
+	1500 6350 1500 6375
+Wire Wire Line
+	1500 6350 1950 6350
+$Comp
+L pump-monitor-interface-board:C_0805 C?
+U 1 1 5F8976DA
+P 1950 6575
+AR Path="/5F8976DA" Ref="C?"  Part="1" 
+AR Path="/5F859606/5F8976DA" Ref="C5"  Part="1" 
+AR Path="/5F8A60BA/5F8976DA" Ref="C?"  Part="1" 
+F 0 "C5" H 2065 6621 50  0000 L CNN
+F 1 "0.1U" H 2065 6530 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1988 6425 50  0001 C CNN
+F 3 "" H 1950 6575 50  0001 C CNN
+F 4 "Y" H 1950 6575 50  0001 C CNN "In stock"
+F 5 "885012207098" H 1950 6575 50  0001 C CNN "MPN"
+	1    1950 6575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 6550 2350 6550
+$Comp
+L power:GND #PWR?
+U 1 1 5F8976E1
+P 1950 6775
+AR Path="/5F8976E1" Ref="#PWR?"  Part="1" 
+AR Path="/5F859606/5F8976E1" Ref="#PWR033"  Part="1" 
+AR Path="/5F8A60BA/5F8976E1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR033" H 1950 6525 50  0001 C CNN
+F 1 "GND" H 1955 6602 50  0000 C CNN
+F 2 "" H 1950 6775 50  0001 C CNN
+F 3 "" H 1950 6775 50  0001 C CNN
+	1    1950 6775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 6775 1950 6725
+Wire Wire Line
+	1950 6425 1950 6350
+Connection ~ 1950 6350
+Wire Wire Line
+	1950 6350 2350 6350
+Wire Wire Line
+	3000 6450 3150 6450
+$Comp
+L power:+2V5 #PWR?
+U 1 1 5F8976EC
+P 3575 6350
+AR Path="/5F8976EC" Ref="#PWR?"  Part="1" 
+AR Path="/5F859606/5F8976EC" Ref="#PWR029"  Part="1" 
+AR Path="/5F8A60BA/5F8976EC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR029" H 3575 6200 50  0001 C CNN
+F 1 "+2V5" H 3590 6523 50  0000 C CNN
+F 2 "" H 3575 6350 50  0001 C CNN
+F 3 "" H 3575 6350 50  0001 C CNN
+	1    3575 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 6450 3575 6350
+$Comp
+L pump-monitor-interface-board:C_0805 C?
+U 1 1 5F8976F3
+P 3275 6700
+AR Path="/5F8976F3" Ref="C?"  Part="1" 
+AR Path="/5F859606/5F8976F3" Ref="C6"  Part="1" 
+AR Path="/5F8A60BA/5F8976F3" Ref="C?"  Part="1" 
+F 0 "C6" H 3390 6746 50  0000 L CNN
+F 1 "1U" H 3390 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3313 6550 50  0001 C CNN
+F 3 "" H 3275 6700 50  0001 C CNN
+F 4 "Y" H 3275 6700 50  0001 C CNN "In stock"
+F 5 "885012107015" H 3275 6700 50  0001 C CNN "MPN"
+	1    3275 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8976F9
+P 3275 6925
+AR Path="/5F8976F9" Ref="#PWR?"  Part="1" 
+AR Path="/5F859606/5F8976F9" Ref="#PWR034"  Part="1" 
+AR Path="/5F8A60BA/5F8976F9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR034" H 3275 6675 50  0001 C CNN
+F 1 "GND" H 3280 6752 50  0000 C CNN
+F 2 "" H 3275 6925 50  0001 C CNN
+F 3 "" H 3275 6925 50  0001 C CNN
+	1    3275 6925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3275 6925 3275 6850
+Wire Wire Line
+	3275 6550 3275 6450
+Connection ~ 3275 6450
+Wire Wire Line
+	3275 6450 3575 6450
+$Comp
+L pump-monitor-interface-board:C_0805 C?
+U 1 1 5F897703
+P 3150 6150
+AR Path="/5F897703" Ref="C?"  Part="1" 
+AR Path="/5F859606/5F897703" Ref="C3"  Part="1" 
+AR Path="/5F8A60BA/5F897703" Ref="C?"  Part="1" 
+F 0 "C3" H 3265 6196 50  0000 L CNN
+F 1 "1U" H 3265 6105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3188 6000 50  0001 C CNN
+F 3 "" H 3150 6150 50  0001 C CNN
+F 4 "Y" H 3150 6150 50  0001 C CNN "In stock"
+F 5 "885012107015" H 3150 6150 50  0001 C CNN "MPN"
+	1    3150 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F897709
+P 3150 5925
+AR Path="/5F897709" Ref="#PWR?"  Part="1" 
+AR Path="/5F859606/5F897709" Ref="#PWR025"  Part="1" 
+AR Path="/5F8A60BA/5F897709" Ref="#PWR?"  Part="1" 
+F 0 "#PWR025" H 3150 5775 50  0001 C CNN
+F 1 "+5V" H 3165 6098 50  0000 C CNN
+F 2 "" H 3150 5925 50  0001 C CNN
+F 3 "" H 3150 5925 50  0001 C CNN
+	1    3150 5925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 5925 3150 6000
+Wire Wire Line
+	3150 6300 3150 6450
+Connection ~ 3150 6450
+Wire Wire Line
+	3150 6450 3275 6450
+Text Notes 1875 7275 0    50   ~ 10
+MID-POINT VOLTAGE REFERENCE
+Wire Notes Line
+	1275 7400 1275 5500
+Wire Notes Line
+	1275 5500 3825 5500
+Wire Notes Line
+	3825 5500 3825 7400
+Wire Notes Line
+	3825 7400 1275 7400
+Wire Wire Line
+	1675 3425 2150 3425
+Wire Wire Line
+	3675 3625 3775 3625
+Connection ~ 4075 3625
+$Comp
+L pump-monitor-interface-board:TestPoint TP1
+U 1 1 5F975243
+P 3775 2725
+F 0 "TP1" H 3575 2850 50  0000 L CNN
+F 1 "AMPL" H 3525 2775 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 3975 2725 50  0001 C CNN
+F 3 "~" H 3975 2725 50  0001 C CNN
+F 4 "n/a" H 3775 2725 50  0001 C CNN "In stock"
+F 5 "n/a" H 3775 2725 50  0001 C CNN "MPN"
+	1    3775 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3775 2725 3775 3625
+Connection ~ 3775 3625
+Wire Notes Line
+	1900 2175 3875 2175
+Wire Notes Line
+	1900 4850 3875 4850
+Wire Wire Line
+	3775 3625 4075 3625
+$Comp
+L pump-monitor-interface-board:TLV4333 U1
+U 2 1 5F86C096
+P 3325 3625
+AR Path="/5F859606/5F86C096" Ref="U1"  Part="2" 
+AR Path="/5F8A60BA/5F86C096" Ref="U?"  Part="2" 
+F 0 "U1" H 3325 3990 50  0000 C CNN
+F 1 "TLV4333" H 3325 3899 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 3325 3650 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlv4333.pdf" H 3325 3650 50  0001 C CNN
+F 4 "TLV4333IDR" H 3325 3625 50  0001 C CNN "MPN"
+F 5 "Y" H 3325 3625 50  0001 C CNN "In stock"
+	2    3325 3625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 3625 3675 3625
+Connection ~ 3675 3625
+$Comp
+L pump-monitor-interface-board:TestPoint TP2
+U 1 1 5F99581F
+P 6775 2725
+F 0 "TP2" H 6575 2850 50  0000 L CNN
+F 1 "RECT" H 6525 2775 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 6975 2725 50  0001 C CNN
+F 3 "~" H 6975 2725 50  0001 C CNN
+F 4 "n/a" H 6775 2725 50  0001 C CNN "In stock"
+F 5 "n/a" H 6775 2725 50  0001 C CNN "MPN"
+	1    6775 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6675 3400 6775 3400
+Wire Wire Line
+	6775 2725 6775 3400
+Connection ~ 6775 3400
+Wire Wire Line
+	6775 3400 7075 3400
+Wire Notes Line
+	3975 2175 6950 2175
+Wire Notes Line
+	3975 4850 6950 4850
+$Comp
+L pump-monitor-interface-board:TestPoint TP3
+U 1 1 5F9A6215
+P 7700 2725
+F 0 "TP3" H 7500 2850 50  0000 L CNN
+F 1 "FILT" H 7475 2775 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 7900 2725 50  0001 C CNN
+F 3 "~" H 7900 2725 50  0001 C CNN
+F 4 "n/a" H 7700 2725 50  0001 C CNN "In stock"
+F 5 "n/a" H 7700 2725 50  0001 C CNN "MPN"
+	1    7700 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2725 7700 3400
+Wire Wire Line
+	7700 3400 8275 3400
+Connection ~ 7700 3400
+$Comp
+L pump-monitor-interface-board:TestPoint TP4
+U 1 1 5F9C39F8
+P 9575 2725
+F 0 "TP4" H 9375 2850 50  0000 L CNN
+F 1 "SENSE" H 9275 2775 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9775 2725 50  0001 C CNN
+F 3 "~" H 9775 2725 50  0001 C CNN
+F 4 "n/a" H 9575 2725 50  0001 C CNN "In stock"
+F 5 "n/a" H 9575 2725 50  0001 C CNN "MPN"
+	1    9575 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9575 2725 9575 3500
+Connection ~ 9575 3500
+Wire Notes Line
+	7950 2175 9725 2175
+Wire Notes Line
+	7950 4850 9725 4850
+$Comp
+L pump-monitor-interface-board:C_0805 C4
+U 1 1 5F9CF7A7
+P 4700 6500
+F 0 "C4" H 4475 6550 50  0000 L CNN
+F 1 "0.1U" H 4400 6450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4738 6350 50  0001 C CNN
+F 3 "" H 4700 6500 50  0001 C CNN
+F 4 "Y" H 4700 6500 50  0001 C CNN "In stock"
+F 5 "885012207098" H 4700 6500 50  0001 C CNN "MPN"
+	1    4700 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6350 4950 6350
+Connection ~ 4950 6350
+Wire Wire Line
+	4950 6350 4950 6400
+Wire Wire Line
+	4700 6650 4950 6650
+Connection ~ 4950 6650
+Wire Wire Line
+	4950 6650 4950 6700
+$Comp
+L power:+5V #PWR020
+U 1 1 5F9D6F6B
+P 9325 4075
+AR Path="/5F859606/5F9D6F6B" Ref="#PWR020"  Part="1" 
+AR Path="/5F8A60BA/5F9D6F6B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR020" H 9325 3925 50  0001 C CNN
+F 1 "+5V" H 9340 4248 50  0000 C CNN
+F 2 "" H 9325 4075 50  0001 C CNN
+F 3 "" H 9325 4075 50  0001 C CNN
+	1    9325 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L pump-monitor-interface-board:C_0805 C2
+U 1 1 5F9D76BD
+P 9325 4225
+F 0 "C2" H 9440 4271 50  0000 L CNN
+F 1 "0.1U" H 9440 4180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9363 4075 50  0001 C CNN
+F 3 "" H 9325 4225 50  0001 C CNN
+F 4 "Y" H 9325 4225 50  0001 C CNN "In stock"
+F 5 "885012207098" H 9325 4225 50  0001 C CNN "MPN"
+	1    9325 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 5F9D7C6B
+P 9325 4375
+AR Path="/5F859606/5F9D7C6B" Ref="#PWR023"  Part="1" 
+AR Path="/5F8A60BA/5F9D7C6B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR023" H 9325 4125 50  0001 C CNN
+F 1 "GND" H 9330 4202 50  0000 C CNN
+F 2 "" H 9325 4375 50  0001 C CNN
+F 3 "" H 9325 4375 50  0001 C CNN
+	1    9325 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L pump-monitor-interface-board:R_0805 R?
+U 1 1 5F9D9A70
+P 10050 3700
+AR Path="/5F9D9A70" Ref="R?"  Part="1" 
+AR Path="/5F859606/5F9D9A70" Ref="R13"  Part="1" 
+F 0 "R13" H 10175 3650 50  0000 C CNN
+F 1 "12K" H 10200 3725 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9980 3700 50  0001 C CNN
+F 3 "~" H 10050 3700 50  0001 C CNN
+F 4 "Y" H 10050 3700 50  0001 C CNN "In stock"
+F 5 "CRCW080512K0FKEA" H 10050 3700 50  0001 C CNN "MPN"
+	1    10050 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L pump-monitor-interface-board:R_0805 R?
+U 1 1 5F9D9A76
+P 10050 4100
+AR Path="/5F9D9A76" Ref="R?"  Part="1" 
+AR Path="/5F859606/5F9D9A76" Ref="R17"  Part="1" 
+F 0 "R17" H 9875 4150 50  0000 L CNN
+F 1 "22K" H 9825 4075 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9980 4100 50  0001 C CNN
+F 3 "~" H 10050 4100 50  0001 C CNN
+F 4 "Y" H 10050 4100 50  0001 C CNN "In stock"
+F 5 "CRCW080522K0FKEAC" H 10050 4100 50  0001 C CNN "MPN"
+	1    10050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F9D9A7C
+P 10050 4250
+AR Path="/5F9D9A7C" Ref="#PWR?"  Part="1" 
+AR Path="/5F859606/5F9D9A7C" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 10050 4000 50  0001 C CNN
+F 1 "GND" H 10055 4077 50  0000 C CNN
+F 2 "" H 10050 4250 50  0001 C CNN
+F 3 "" H 10050 4250 50  0001 C CNN
+	1    10050 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 3850 10050 3900
+Wire Wire Line
+	10050 3900 10325 3900
+Connection ~ 10050 3900
+Wire Wire Line
+	10050 3900 10050 3950
+Wire Wire Line
+	10050 3500 10050 3550
+Wire Wire Line
+	9575 3500 10050 3500
+$EndSCHEMATC

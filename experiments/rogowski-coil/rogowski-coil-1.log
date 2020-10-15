@@ -1,0 +1,62 @@
+Circuit: * C:\users\iross\My Documents\projects\pump-monitor\experiments\rogowski-coil\rogowski-coil-1.asc
+
+Instance "m:u4:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u4:1": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u3:1": Length shorter than recommended for a level 2 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+Gmin = 2.66058e-005
+vernier = 0.25
+vernier = 0.333333
+Gmin = 1.60486e-005
+vernier = 0.444444
+vernier = 0.592592
+Gmin = 5.51279e-006
+vernier = 0.790123
+Gmin = 1.07562e-006
+vernier = 1
+Gmin = 1.15494e-007
+Gmin = 1.24011e-008
+Gmin = 1.33156e-009
+Gmin = 1.42975e-010
+Gmin = 1.53518e-011
+Gmin = 1.64839e-012
+Gmin = 1.76994e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Sat Oct 10 16:46:58 2020
+Total elapsed time: 0.623 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 22252
+traniter = 21513
+tranpoints = 10707
+accept = 7143
+rejected = 3564
+matrix size = 112
+fillins = 137
+solver = Normal
+Thread vector: 11.9/8.1[2] 2.9/3.0[1] 5.6/4.4[2] 0.7/1.7[1]  2592/500
+Matrix Compiler1: 12.08 KB object code size  2.7/1.6/[0.6]
+Matrix Compiler2: 12.22 KB object code size  2.2/2.3/[0.8]
+

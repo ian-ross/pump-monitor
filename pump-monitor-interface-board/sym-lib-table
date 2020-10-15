@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pump-monitor-interface-board)(type Legacy)(uri ${KIPRJMOD}/pump-monitor-interface-board.lib)(options "")(descr ""))
+)
