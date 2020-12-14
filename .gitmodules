@@ -1,0 +1,3 @@
+[submodule "code/sen0208-driver"]
+	path = code/sen0208-driver
+	url = git@github.com:ian-ross/sen0208-driver.git
